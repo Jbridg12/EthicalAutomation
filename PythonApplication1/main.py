@@ -1,4 +1,10 @@
+"""
+Project: Ethical Automation
+Name: Josh Bridges
 
+Functionality:
+
+"""
 import csv
 
 def analyze_applicant1(applicant):
@@ -25,4 +31,8 @@ def analyze_applicant3(applicant):
 def analyze_applicant3(applicant):
     return True
 
-ar = csv.reader("applicants.csv")
+gpas = open('applicants.csv')
+ar = csv.reader(gpas)
+
+for row in ar:
+    print(row)
