@@ -1,7 +1,7 @@
 
 import csv
 
-def analyze_applicant1 ( applicant ):
+def analyze_applicant1(applicant):
     """
     Given the GPAs of a single applicant, return True if they are qualified 
     Qualification: Anapplicant is qualified if. . .
@@ -12,11 +12,17 @@ def analyze_applicant1 ( applicant ):
 
     return True  #Simulate an assessment
     
-    #define a list of dummy scores 
-    applicant = [1, 2, 3, 4, 5, 6]
-    
     #c a l l the function 
     if analyze_applicant1( applicant ):
         print("They passed! :)")
     else:
         print("They didn’t pass! :(")
+
+def analyze_applicant2(applicant):
+    return True
+def analyze_applicant3(applicant):
+    return True
+def analyze_applicant3(applicant):
+    return True
+
+ar = csv.reader("applicants.csv")
