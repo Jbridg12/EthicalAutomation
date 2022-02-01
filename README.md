@@ -1,11 +1,11 @@
-Josh Bridges
-COSC423: Ethical Automation
+# Josh Bridges
+# COSC423: Ethical Automation
 
 # Overview
 
 The Ethical Automation included in this project submission implements four checks that evaluate indivicual aspects of an applicants grades, stored in a file "applicants.csv", and stores the results of these evaluations in a file "results.csv".
 
-#Execution
+# Execution
 
 To run the code simply make sure the "applicants.csv" is located in the project directory and run the "main.py" program. The results will theen appear in a "results.csv" file in the project directory.
 
